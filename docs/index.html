@@ -15,7 +15,7 @@
         <h1>🍎Apfelkarte🍏</h1>
         <div id="mapid" style="height: 450px; position: relative;"></div>
         <script>
-            var mymap = L.map('mapid').setView([51.3037, 12.3631], 9);
+            var mymap = L.map('mapid').setView([51.3037, 12.3631], 8);
             L.tileLayer('https://a.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(mymap);
             L.marker([51.1912, 12.2676]).addTo(mymap).bindPopup("🚸 Gut geeignet für Kinder");
             L.marker([51.32087, 12.31742]).addTo(mymap).bindPopup("🚸 Direkt neben der Unterführung gelegen");
